@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para ti ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<audio id="musica-fondo" loop>
+<source src="/Users/emi/Downloads/The Last Shadow Puppets - Sweet Dreams, TN.mp3" type="audio/mpeg">
+</audio>
+
+<button id="btn-musica" class="btn-musica oculto" title="Pausar/Reproducir música">🎵</button>
+
+
+<div id="pantalla-sobre" class="pantalla-sobre">
+<div class="sobre-wrapper" id="sobre">
+<div class="solapa"></div>
+<div class="cuerpo-sobre">
+<p>Tienes una carta</p>
+<span class="corazon-sello">🌸</span>
+<small>Toca para abrir</small>
+</div>
+</div>
+</div>
+
+<!-- Contenido principal de la carta (inicia oculto) -->
+<main id="carta-contenedor" class="carta-contenedor oculto">
+<header class="encabezado">
+<span class="fecha">25 de Noviembre, 2026</span>
+<h1>Para el amor de mi vida</h1>
+</header>
+
+<!-- Contador de tiempo juntos -->
+<section class="contador-seccion">
+            <p class="contador-titulo">Llevamos juntos:</p>
+            <div id="contador" class="contador-grid">
+                <div class="tiempo-caja"><span id="dias">30</span><small>Días</small></div>
+                <div class="tiempo-caja"><span id="horas">00</span><small>Horas</small></div>
+                <div class="tiempo-caja"><span id="minutos">00</span><small>Min</small></div>
+                <div class="tiempo-caja"><span id="segundos">00</span><small>Seg</small></div>
+            </div>
+        </section>
+
+<section class="texto-carta">
+<p>Hola mi amor,</p>
+<p>
+Quise hacer este pequeño espacio en internet solo para nosotros.No soy el mejor pero por ti intentaria cualquier cosa 
+</p>
+<p>
+Te amo tanto y espero que esto que estamos construyendo sea para siempre.</p>
+<p>
+La verdad, eres la mujer con la que quiero pasar el resto de mi vida; anhelo el día en que seas mi esposa. Eres mi mundo y mi razón de ser. No hay palabras para describir todo lo que siento por ti; cada momento contigo es especial, sin importar qué es lo que estemos haciendo.</p>
+<p>
+    Apoyate en mi, confia en mi, creen en mi voy a hacer cualquier cosa solo por ti, te daria mi vida si me lo pidieras. No tengo mucho pero te entrego todo lo que tengo 
+    por la mujer que amo
+</p>
+<p>
+    Con estas palabras quiero que comprendas que puedes contarme cómo te sientes y compartir tus preocupaciones, problemas o molestias conmigo. Recuerda que ya no estás sola, siempre vas a contar conmigo; veré por ti y te protegeré sin importar qué. Lo más importante es que deseo verte feliz, con esa sonrisa tuya que me tiene tan enamorado. Desde el momento en que te conocí, mi corazón dejó de ser mío para convertirse en tuyo. Eres la razon por la que quiero cambiar y ser mejor.
+</p>    
+<p>
+    Amor, soy feliz; me das tanto que no tengo cómo pagar toda esta felicidad. Amo amarte y hablar sobre nuestro futuro. Me hiciste querer tener una familia y aprender a amar. Esto suena egoísta, pero quiero ser tu último novio. Te amo con todo mi ser, mi futura esposa hermosa, espero que ese contador nunca deje de avanzar...
+    </p>
+
+    <p>
+        Te juro que te hare la mujer, esposa y madre mas feliz del mundo.
+        </p>
+</section>
+
+<section class="galeria">
+<h2>Nuestros recuerdos</h2>
+<div class="grid-media">
+<figure class="item-media">
+<img src="media/IMG_0595.jpeg" alt="Descripción de la foto 1">
+<figcaption>Ese día en el que enamore de ti</figcaption>
+</figure>
+
+<figure class="item-media">
+<img src="media/IMG_0602.jpeg" alt="Descripción de la foto 2">
+<figcaption>Mi foto favorita contigo.</figcaption>
+</figure>
+
+<figure class="item-media video-destacado">
+<video controls preload="metadata">
+<source src="media/WhatsApp Video 2026-11-25 at 3.31.03 AM.mp4" type="video/mp4">
+Tu navegador no soporta la reproducción de video.
+</video>
+<figcaption>Espero hacer mas recuerdos contigo.</figcaption>
+</figure>
+</div>
+</section>
+
+<footer class="firma">
+<p>Con todo mi amor,</p>
+<p class="nombre-firma">Tu novio 💖</p>
+</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
